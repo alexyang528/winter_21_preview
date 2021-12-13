@@ -3,14 +3,23 @@
     "$schema": "https://schema.yext.com/config/analytics/insight/v1",
     "name": "Direct Answers with Thumbs Down",
     "description": "Direct Answers with Thumbs Down",
-    "query":
-    {
-        "metrics": ["yext/ANSWERS_THUMBS_DOWN_EVENTS"],
-        "dimensions": ["yext/ANSWERS_DIRECT_ANSWER_FIELD", "yext/ANSWERS_DIRECT_FIELD_VALUE"]
+    "query": {
+        "metrics": [
+            "yext/ANSWERS_THUMBS_DOWN_EVENTS"
+        ],
+        "dimensions": [
+            "yext/ANSWERS_DIRECT_ANSWER_FIELD",
+            "yext/ANSWERS_DIRECT_FIELD_VALUE"
+        ]
     },
-    "display":
-    {
-        "table":
-        {}
+    "display": {
+        "table": {
+            "sort": {
+                "column": {
+                    "metric": "yext/ANSWERS_THUMBS_DOWN_EVENTS"
+                },
+                "descending": true
+            }
+        }
     }
 }

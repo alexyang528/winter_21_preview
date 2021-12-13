@@ -3,14 +3,15 @@
     "$schema": "https://schema.yext.com/config/analytics/insight/v1",
     "name": "Searches by Filter Source",
     "description": "Searches by Filter Source",
-    "query":
-    {
-        "metrics": ["yext/ANSWERS_SEARCHES"],
-        "dimensions": ["yext/ANSWERS_FILTER_SOURCE"]
+    "query": {
+        "metrics": [
+            "yext/ANSWERS_SEARCHES"
+        ],
+        "dimensions": [
+            "yext/ANSWERS_FILTER_SOURCE"
+        ]
     },
-    "display":
-    {
-        "pie":
-        {}
+    "display": {
+        "pie": {}
     }
 }

@@ -3,19 +3,30 @@
     "$schema": "https://schema.yext.com/config/analytics/insight/v1",
     "name": "Search Terms with Case Submission",
     "description": "Search Terms with Case Submission",
-    "query":
-    {
-        "metrics": ["yext/ANSWERS_SEARCHES"],
-        "dimensions": ["yext/ANSWERS_SEARCH_TERM"],
+    "query": {
+        "metrics": [
+            "yext/ANSWERS_SEARCHES"
+        ],
+        "dimensions": [
+            "yext/ANSWERS_SEARCH_TERM"
+        ],
         "filters": [
-        {
-            "filter": "yext/ANSWERS_HAS_CASE_SUBMIT",
-            "in": ["true"]
-        }]
+            {
+                "filter": "yext/ANSWERS_HAS_CASE_SUBMIT",
+                "in": [
+                    "true"
+                ]
+            }
+        ]
     },
-    "display":
-    {
-        "table":
-        {}
+    "display": {
+        "table": {
+            "sort": {
+                "column": {
+                    "metric": "yext/ANSWERS_SEARCHES"
+                },
+                "descending": true
+            }
+        }
     }
 }

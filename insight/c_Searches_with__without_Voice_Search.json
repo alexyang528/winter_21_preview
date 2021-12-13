@@ -3,14 +3,15 @@
     "$schema": "https://schema.yext.com/config/analytics/insight/v1",
     "name": "Searches with and without Voice Search",
     "description": "Searches with and without Voice Search",
-    "query":
-    {
-        "metrics": ["yext/ANSWERS_SEARCHES"],
-        "dimensions": ["yext/ANSWERS_HAS_VOICE_SEARCH"]
+    "query": {
+        "metrics": [
+            "yext/ANSWERS_SEARCHES"
+        ],
+        "dimensions": [
+            "yext/ANSWERS_HAS_VOICE_SEARCH"
+        ]
     },
-    "display":
-    {
-        "pie":
-        {}
+    "display": {
+        "pie": {}
     }
 }

@@ -3,15 +3,17 @@
     "$schema": "https://schema.yext.com/config/analytics/insight/v1",
     "name": "Frequency of Filter Values by Vertical",
     "description": "Frequency of Filter Values by Vertical",
-    "query":
-    {
-        "metrics": ["yext/ANSWERS_SEARCHES"],
-        "dimensions": ["yext/ANSWERS_VERTICAL_RETURNED", "yext/ANSWERS_FILTER_VALUE"]
+    "query": {
+        "metrics": [
+            "yext/ANSWERS_SEARCHES"
+        ],
+        "dimensions": [
+            "yext/ANSWERS_VERTICAL_RETURNED",
+            "yext/ANSWERS_FILTER_VALUE"
+        ]
     },
-    "display":
-    {
-        "bar":
-        {
+    "display": {
+        "bar": {
             "style": "STACKED"
         }
     }

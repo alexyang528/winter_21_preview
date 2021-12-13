@@ -3,18 +3,23 @@
     "$schema": "https://schema.yext.com/config/analytics/insight/v1",
     "name": "Voice Searches over Time",
     "description": "Voice Searches over Time",
-    "query":
-    {
-        "metrics": ["yext/ANSWERS_SEARCHES"],
-        "dimensions": ["yext/DAYS"],
+    "query": {
+        "metrics": [
+            "yext/ANSWERS_SEARCHES"
+        ],
+        "dimensions": [
+            "yext/DAYS"
+        ],
         "filters": [
-        {
-            "filter": "yext/ANSWERS_HAS_VOICE_SEARCH",
-            "in": ["true"]
-        }]
+            {
+                "filter": "yext/ANSWERS_HAS_VOICE_SEARCH",
+                "in": [
+                    "true"
+                ]
+            }
+        ]
     },
-    "display":
-    {
-      "line": {}
+    "display": {
+        "line": {}
     }
 }
