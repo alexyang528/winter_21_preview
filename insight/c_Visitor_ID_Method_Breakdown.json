@@ -1,0 +1,16 @@
+{
+    "$id": "c_Visitor_ID_Method_Breakdown",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Visitor ID Method Breakdown",
+    "description": "Visitor ID Method Breakdown",
+    "query":
+    {
+        "metrics": ["yext/ANSWERS_SESSIONS"],
+        "dimensions": ["yext/VISITOR_ID_METHOD"]
+    },
+    "display":
+    {
+        "pie":
+        {}
+    }
+}

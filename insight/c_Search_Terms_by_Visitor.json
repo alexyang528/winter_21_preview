@@ -1,0 +1,16 @@
+{
+    "$id": "c_Search_Terms_by_Visitor",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Search Terms by Visitor",
+    "description": "Search Terms by Visitor",
+    "query":
+    {
+        "metrics": ["yext/ANSWERS_SEARCHES", "yext/ANSWERS_CLICKS"],
+        "dimensions": ["yext/VISITOR_ID", "yext/VISITOR_NAME", "yext/ANSWERS_SEARCH_TERM"]
+    },
+    "display":
+    {
+        "table":
+        {}
+    }
+}

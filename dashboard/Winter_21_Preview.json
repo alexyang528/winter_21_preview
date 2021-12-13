@@ -1,0 +1,161 @@
+{
+  "$id": "c_Winter_21_Preview",
+  "$schema": "https://schema.yext.com/config/analytics/dashboard/v1",
+  "name": "Winter \u002721 Preview",
+  "insights": [
+    {
+      "insight": "c_Overall_Thumbs_Up__Down_Split_by_Experience",
+      "x": 0,
+      "y": 0,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "c_Thumbs_Up__Down_Split_by_Vertical",
+      "x": 2,
+      "y": 0,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "c_Verticals_with_Thumbs_Down",
+      "x": 4,
+      "y": 0,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "c_Search_Terms_with_Thumbs_Down",
+      "x": 0,
+      "y": 1,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "c_Entities_with_Thumbs_Down",
+      "x": 2,
+      "y": 1,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "c_Direct_Answers_with_Thumbs_Down",
+      "x": 4,
+      "y": 1,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "c_Total_Voice_Searches",
+      "x": 0,
+      "y": 2,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "c_Voice_Searches_over_Time",
+      "x": 2,
+      "y": 2,
+      "width": 4,
+      "height": 1
+    },
+    {
+      "insight": "c_Searches_with__without_Voice_Search",
+      "x": 0,
+      "y": 3,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "c_Most_Common_Voice_Search_Terms",
+      "x": 2,
+      "y": 3,
+      "width": 4,
+      "height": 1
+    },
+    {
+      "insight": "c_Frequency_of_Filter_Keys_by_Vertical",
+      "x": 0,
+      "y": 4,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "insight": "c_Frequency_of_Filter_Values_by_Vertical",
+      "x": 3,
+      "y": 4,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "insight": "c_Searches_by_Filter_Source",
+      "x": 0,
+      "y": 5,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "insight": "c_CTR_by_Filter_Key",
+      "x": 3,
+      "y": 5,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "insight": "c_Total_Case_Deflections",
+      "x": 0,
+      "y": 6,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "c_Case_Deflections_over_Time",
+      "x": 2,
+      "y": 6,
+      "width": 4,
+      "height": 1
+    },
+    {
+      "insight": "c_Overall_Deflection_Rate",
+      "x": 0,
+      "y": 7,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "c_Search_Terms_with_Case_Submission",
+      "x": 2,
+      "y": 7,
+      "width": 4,
+      "height": 1
+    },
+    {
+      "insight": "c_Core_Answers_Stats_by_Integration_Source",
+      "x": 0,
+      "y": 8,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "insight": "c_Core_Answers_Stats_by_Verticals_Returned",
+      "x": 3,
+      "y": 8,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "insight": "c_Core_Answers_Stats_by_User_Browser",
+      "x": 0,
+      "y": 9,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "insight": "c_Core_Answers_Stats_by_User_Location",
+      "x": 3,
+      "y": 9,
+      "width": 3,
+      "height": 1
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "$id": "c_Entities_with_Thumbs_Down",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Entities with Thumbs Down",
+    "description": "Entities with Thumbs Down",
+    "query":
+    {
+        "metrics": ["yext/ANSWERS_THUMBS_DOWN_EVENTS"],
+        "dimensions": ["yext/ENTITIES"]
+    },
+    "display":
+    {
+        "table":
+        {}
+    }
+}

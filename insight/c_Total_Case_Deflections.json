@@ -1,0 +1,16 @@
+{
+    "$id": "c_Total_Case_Deflections",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Total Case Deflections",
+    "description": "Total Case Deflections",
+    "query":
+    {
+        "metrics": ["yext/ANSWERS_CASE_DEFLECTIONS"],
+        "dimensions": ["yext/ANSWERS_EXPERIENCE"]
+    },
+    "display": {
+      "hero": {
+        "aggregation": "SUM"
+      }
+    }
+}

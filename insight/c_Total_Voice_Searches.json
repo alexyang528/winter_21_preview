@@ -1,0 +1,21 @@
+{
+    "$id": "c_Total_Voice_Searches",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Total Voice Searches",
+    "description": "Total Voice Searches",
+    "query":
+    {
+        "metrics": ["yext/ANSWERS_SEARCHES"],
+        "dimensions": ["yext/ANSWERS_EXPERIENCE"],
+        "filters": [
+        {
+            "filter": "yext/ANSWERS_HAS_VOICE_SEARCH",
+            "in": ["true"]
+        }]
+    },
+    "display": {
+      "hero": {
+        "aggregation": "SUM"
+      }
+    }
+}

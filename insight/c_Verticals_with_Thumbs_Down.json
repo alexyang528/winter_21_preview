@@ -1,0 +1,16 @@
+{
+    "$id": "c_Verticals_with_Thumbs_Down",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Verticals with Thumbs Down",
+    "description": "Verticals with Thumbs Down",
+    "query":
+    {
+        "metrics": ["yext/ANSWERS_THUMBS_DOWN_EVENTS"],
+        "dimensions": ["yext/ANSWERS_SEARCH_VERTICAL"]
+    },
+    "display":
+    {
+        "table":
+        {}
+    }
+}
