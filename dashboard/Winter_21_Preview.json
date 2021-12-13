@@ -134,28 +134,28 @@
             "x": 0,
             "y": 8,
             "width": 3,
-            "height": 1
+            "height": 2
         },
         {
             "insight": "c_Core_Answers_Stats_by_Verticals_Returned",
             "x": 3,
             "y": 8,
             "width": 3,
-            "height": 1
+            "height": 2
         },
         {
             "insight": "c_Core_Answers_Stats_by_User_Browser",
             "x": 0,
-            "y": 9,
+            "y": 10,
             "width": 3,
-            "height": 1
+            "height": 2
         },
         {
             "insight": "c_Core_Answers_Stats_by_User_Location",
             "x": 3,
-            "y": 9,
+            "y": 10,
             "width": 3,
-            "height": 1
+            "height": 2
         }
     ]
 }

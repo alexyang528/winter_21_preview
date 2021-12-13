@@ -4,7 +4,8 @@
     "name": "Search Terms with Case Submission",
     "query": {
         "metrics": [
-            "yext/ANSWERS_SEARCHES"
+            "yext/ANSWERS_SEARCHES",
+            "yext/ANSWERS_CASE_SUBMITS"
         ],
         "dimensions": [
             "yext/ANSWERS_SEARCH_TERM"

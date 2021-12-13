@@ -8,7 +8,7 @@
             "yext/ANSWERS_THUMBS_DOWN_EVENTS"
         ],
         "dimensions": [
-            "yext/ANSWERS_SEARCH_VERTICAL"
+            "yext/ANSWERS_VERTICAL_RETURNED"
         ]
     },
     "display": {
