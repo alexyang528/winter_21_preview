@@ -2,7 +2,6 @@
     "$id": "c_Thumbs_Up__Down_Split_by_Vertical",
     "$schema": "https://schema.yext.com/config/analytics/insight/v1",
     "name": "Thumbs Up and Down Split by Vertical",
-    "description": "Thumbs Up and Down Split by Vertical",
     "query": {
         "metrics": [
             "yext/ANSWERS_THUMBS_UP_EVENTS",

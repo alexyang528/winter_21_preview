@@ -2,7 +2,6 @@
     "$id": "c_Most_Common_Voice_Search_Terms",
     "$schema": "https://schema.yext.com/config/analytics/insight/v1",
     "name": "Most Common Voice Search Terms",
-    "description": "Most Common Voice Search Terms",
     "query": {
         "metrics": [
             "yext/ANSWERS_SEARCHES"

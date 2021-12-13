@@ -2,7 +2,6 @@
     "$id": "c_Overall_Thumbs_Up__Down_Split_by_Experience",
     "$schema": "https://schema.yext.com/config/analytics/insight/v1",
     "name": "Overall Thumbs Up and Down Split by Experience",
-    "description": "Overall Thumbs Up and Down Split by Experience",
     "query": {
         "metrics": [
             "yext/ANSWERS_THUMBS_UP_EVENTS",

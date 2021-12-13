@@ -2,7 +2,6 @@
     "$id": "c_Voice_Searches_over_Time",
     "$schema": "https://schema.yext.com/config/analytics/insight/v1",
     "name": "Voice Searches over Time",
-    "description": "Voice Searches over Time",
     "query": {
         "metrics": [
             "yext/ANSWERS_SEARCHES"

@@ -2,7 +2,6 @@
   "$id": "c_Total_Voice_Searches",
   "$schema": "https://schema.yext.com/config/analytics/insight/v1",
   "name": "Total Voice Searches",
-  "description": "Total Voice Searches",
   "query": {
     "metrics": [
       "yext/ANSWERS_SEARCHES"
