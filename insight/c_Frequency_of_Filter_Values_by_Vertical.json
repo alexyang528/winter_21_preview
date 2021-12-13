@@ -9,6 +9,14 @@
         "dimensions": [
             "yext/ANSWERS_VERTICAL_RETURNED",
             "yext/ANSWERS_FILTER_VALUE"
+        ],
+        "filters": [
+            {
+                "filter": "yext/ANSWERS_FILTER_SOURCE",
+                "in": [
+                    "USER_INTERFACE"
+                ]
+            }
         ]
     },
     "display": {

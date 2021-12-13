@@ -12,6 +12,8 @@
         ]
     },
     "display": {
-        "line": {}
+        "line": {
+            "showLabels": true
+        }
     }
 }
