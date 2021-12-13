@@ -10,7 +10,7 @@
         "filters": [
         {
             "filter": "yext/ANSWERS_HAS_VOICE_SEARCH",
-            "in": ["True"]
+            "in": ["true"]
         }]
     },
     "display":
