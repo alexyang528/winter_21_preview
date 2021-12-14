@@ -1,8 +1,7 @@
 {
-    "$id": "c_Frequency_of_Filter_Values_by_Vertical",
+    "$id": "c_Filter_Selected_by_Vertical",
     "$schema": "https://schema.yext.com/config/analytics/insight/v1",
-    "name": "Frequency of Filter Values by Vertical",
-    "description": "Frequency of Filter Values by Vertical",
+    "name": "Filters Selected by Vertical",
     "query": {
       "metrics": [
         "yext/ANSWERS_SEARCHES"

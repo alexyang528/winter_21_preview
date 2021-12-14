@@ -36,16 +36,16 @@
             "height": 1
         },
         {
-            "insight": "c_Frequency_of_Filter_Keys_by_Vertical",
-            "caption": "You can now view the Filter Keys, or the field on which an NLP, Facet, or Static filter was applied during an Answers search.",
+            "insight": "c_Filter_Selected_by_Vertical",
+            "caption": "The values that Answers users selected in facets or static filters, out of 100% for each vertical.",
             "x": 0,
             "y": 2,
             "width": 3,
             "height": 1
         },
         {
-            "insight": "c_Frequency_of_Filter_Values_by_Vertical",
-            "caption": "You can also view Filter Values, or the value of the NLP, Facet, or Static filter applied.",
+            "insight": "c_Filter_Values_Selected_by_Filter_Field",
+            "caption": "The values that Answers users selected in facets or static filters, out of 100% for each filter field option.",
             "x": 3,
             "y": 2,
             "width": 3,
