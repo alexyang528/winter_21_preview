@@ -20,7 +20,7 @@
             {
                 "filter": "yext/ANSWERS_FILTER_OPERATOR",
                 "in": [
-                    "EQUAL_TO"
+                    "Equal to"
                 ]
             }
         ]
