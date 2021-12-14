@@ -1,0 +1,26 @@
+{
+    "$id": "c_Searches_with_Direct_Answers",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Searches with Direct Answers",
+    "description": "Searches with Direct Answers",
+    "query": {
+      "metrics": [
+        "yext/ANSWERS_SEARCHES"
+      ],
+      "dimensions": [
+        "yext/WEEKS",
+        "yext/ANSWERS_DIRECT_TYPE"
+      ],
+      "filters": [
+        {
+          "filter": "yext/date",
+          "in": "WEEKS_12"
+        }
+      ]
+    },
+    "display": {
+      "line": {
+        "showLabels": true
+      }
+    }
+  }
