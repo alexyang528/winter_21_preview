@@ -140,10 +140,10 @@
             "height": 2
         },
         {
-            "insight": "c_Searches_with__without_Voice_Search",
+            "insight": "c_Voice_Search_Usage",
             "caption": "The usage of voice search across your Answers experiences.",
             "x": 0,
-            "y": 16,
+            "y": 18,
             "width": 2,
             "height": 1
         },
@@ -151,7 +151,7 @@
             "insight": "c_Voice_Searches_over_Time",
             "caption": "The number of searches placed using voice search over time.",
             "x": 2,
-            "y": 16,
+            "y": 18,
             "width": 4,
             "height": 1
         },
@@ -167,7 +167,7 @@
             "insight": "c_Total_Voice_Searches",
             "caption": "The total number of Answers searches placed using voice search.",
             "x": 0,
-            "y": 17,
+            "y": 19,
             "width": 2,
             "height": 1
         },
