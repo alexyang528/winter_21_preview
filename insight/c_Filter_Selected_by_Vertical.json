@@ -3,25 +3,31 @@
     "$schema": "https://schema.yext.com/config/analytics/insight/v1",
     "name": "Filters Selected by Vertical",
     "query": {
-      "metrics": [
-        "yext/ANSWERS_SEARCHES"
-      ],
-      "dimensions": [
-        "yext/ANSWERS_VERTICAL_RETURNED",
-        "yext/ANSWERS_FILTER_VALUE"
-      ],
-      "filters": [
-        {
-          "filter": "yext/ANSWERS_FILTER_SOURCE",
-          "in": [
-            "UI"
-          ]
-        }
-      ]
+        "metrics": [
+            "yext/ANSWERS_SEARCHES"
+        ],
+        "dimensions": [
+            "yext/ANSWERS_VERTICAL_RETURNED",
+            "yext/ANSWERS_FILTER_VALUE"
+        ],
+        "filters": [
+            {
+                "filter": "yext/ANSWERS_FILTER_SOURCE",
+                "in": [
+                    "UI"
+                ]
+            },
+            {
+                "filter": "yext/ANSWERS_FILTER_OPERATOR",
+                "in": [
+                    "EQUAL_TO"
+                ]
+            }
+        ]
     },
     "display": {
-      "bar": {
-        "style": "PERCENT"
-      }
+        "bar": {
+            "style": "PERCENT"
+        }
     }
-  }
+}
