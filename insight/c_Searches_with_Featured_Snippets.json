@@ -11,8 +11,10 @@
         ],
         "filters": [
             {
-                "filter": "yext/ANSWERS_DIRECT_ANSWER_TYPE",
-                "in": ["FEATURED_SNIPPET"]
+                "filter": "yext/ANSWERS_DIRECT_TYPE",
+                "in": [
+                    "FEATURED_SNIPPET"
+                ]
             }
         ]
     },
