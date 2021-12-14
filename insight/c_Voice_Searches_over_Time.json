@@ -7,7 +7,7 @@
             "yext/ANSWERS_SEARCHES"
         ],
         "dimensions": [
-            "yext/DAYS"
+            "yext/WEEKS"
         ],
         "filters": [
             {
@@ -15,6 +15,10 @@
                 "in": [
                     "true"
                 ]
+            },
+            {
+                "filter": "yext/date",
+                "in": "WEEKS_12"
             }
         ]
     },

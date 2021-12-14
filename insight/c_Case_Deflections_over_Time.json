@@ -8,7 +8,13 @@
             "yext/ANSWERS_CASE_DEFLECTIONS"
         ],
         "dimensions": [
-            "yext/DAYS"
+            "yext/WEEKS"
+        ],
+        "filters": [
+            {
+                "filter": "yext/date",
+                "in": "WEEKS_12"
+            }
         ]
     },
     "display": {

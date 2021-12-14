@@ -5,11 +5,11 @@
     "insights": [
         {
             "insight": "c_Searches_by_Vertical_Returned",
-            "caption": "Vertical Returned allows you to dimension Answers metrics by vertical key. Searches by Vertical Returned, for example, shows the number of searches in which each vertical was returned.",
+            "caption": "Searches by Vertical Returned shows the number of searches in which each vertical was returned.",
             "x": 0,
             "y": 0,
             "width": 2,
-            "height": 1
+            "height": 2
         },
         {
             "insight": "c_Clicks_by_Vertical_Returned",
@@ -17,199 +17,198 @@
             "x": 2,
             "y": 0,
             "width": 2,
-            "height": 1
+            "height": 2
         },
         {
             "insight": "c_CTR_by_Vertical_Returned",
-            "caption": "Finally, CTR by Vertical Returned shows the Click Through Rate of each vertical (searches with a click on each vertical divided by total searches returning that vertical).",
+            "caption": "CTR by Vertical Returned shows the Click Through Rate of each vertical (searches with a click on each vertical divided by total searches returning that vertical).",
             "x": 4,
             "y": 0,
             "width": 2,
-            "height": 1
+            "height": 2
         },
         {
             "insight": "c_Searches_with_Direct_Answers",
             "caption": "Direct Answer Type allows you to dimension Answers metrics by the type of Direct Answer (Featured Snippet or Field) returned.",
             "x": 0,
-            "y": 1,
+            "y": 2,
             "width": 6,
-            "height": 1
+            "height": 2
         },
         {
             "insight": "c_Filter_Selected_by_Vertical",
             "caption": "The values that Answers users selected in facets or static filters, out of 100% for each vertical.",
             "x": 0,
-            "y": 2,
+            "y": 4,
             "width": 3,
-            "height": 1
+            "height": 2
         },
         {
             "insight": "c_Filter_Values_Selected_by_Filter_Field",
             "caption": "The values that Answers users selected in facets or static filters, out of 100% for each filter field option.",
             "x": 3,
-            "y": 2,
+            "y": 4,
             "width": 3,
-            "height": 1
+            "height": 2
         },
         {
             "insight": "c_Searches_by_Filter_Source",
             "caption": "Filter Source separates Algorithm filters (i.e., NLP filters) from User Interface filters (i.e., Facets or Static filters selected).",
             "x": 0,
-            "y": 3,
-            "width": 2,
-            "height": 1
-        },
-        {
-            "insight": "c_CTR_by_Filter_Key",
-            "x": 2,
-            "y": 3,
-            "width": 4,
-            "height": 1
-        },
-        {
-            "insight": "c_Sessions_by_User_Region",
-            "caption": "You can now dimension Answers searches and user events by the Region the user is searching from.",
-            "x": 0,
-            "y": 4,
-            "width": 3,
-            "height": 1
-        },
-        {
-            "insight": "c_Core_Answers_Stats_by_User_Region",
-            "x": 3,
-            "y": 4,
-            "width": 3,
-            "height": 1
-        },
-        {
-            "insight": "c_Sessions_by_User_Browser",
-            "caption": "You can also now dimension Answers searches and user events by the browser the user is using.",
-            "x": 0,
-            "y": 5,
-            "width": 3,
-            "height": 1
-        },
-        {
-            "insight": "c_Core_Answers_Stats_by_User_Browser",
-            "x": 3,
-            "y": 5,
-            "width": 3,
-            "height": 1
-        },
-        {
-            "insight": "c_Sessions_by_Integration_Source",
-            "caption": "In Winter \u002721, you can now specify a unique Integration Source (a.k.a. Query Source) for each Answers integration, in order to delineate searches on different pages of your site.",
-            "x": 0,
             "y": 6,
-            "width": 3,
-            "height": 1
-        },
-        {
-            "insight": "c_Core_Answers_Stats_by_Integration_Source",
-            "x": 3,
-            "y": 6,
-            "width": 3,
-            "height": 1
-        },
-        {
-            "insight": "c_Thumbs_Up__Down_Split_by_Vertical",
-            "x": 0,
-            "y": 7,
             "width": 2,
             "height": 2
         },
         {
-            "insight": "c_Search_Terms_with_Thumbs_Down",
+            "insight": "c_CTR_by_Filter_Key",
+            "caption": "The Click Through Rate of Answers Searches, grouped by the filter applied.",
             "x": 2,
-            "y": 7,
+            "y": 6,
             "width": 4,
-            "height": 1
+            "height": 2
         },
         {
-            "insight": "c_Entities_with_Thumbs_Down",
-            "x": 2,
+            "insight": "c_Core_Answers_Stats_by_User_Region",
+            "caption": "Answers search and click volume, grouped by the region the user searched from.",
+            "x": 0,
             "y": 8,
             "width": 4,
-            "height": 1
+            "height": 2
+        },
+        {
+            "insight": "c_Sessions_by_User_Region",
+            "caption": "The share of Answers sessions by the region the user searched from.",
+            "x": 4,
+            "y": 8,
+            "width": 2,
+            "height": 2
+        },
+        {
+            "insight": "c_Sessions_by_User_Browser",
+            "caption": "The share of Answers sessions by the user\u0027s browser.",
+            "x": 0,
+            "y": 10,
+            "width": 2,
+            "height": 2
+        },
+        {
+            "insight": "c_Core_Answers_Stats_by_User_Browser",
+            "caption": "Answers search and click volume, grouped by the user\u0027s browser.",
+            "x": 2,
+            "y": 10,
+            "width": 4,
+            "height": 2
+        },
+        {
+            "insight": "c_Core_Answers_Stats_by_Integration_Source",
+            "caption": "Answers search and click volume, grouped by Integration Source (can be set for each Answers integration, defaults to \"STANDARD\").",
+            "x": 0,
+            "y": 12,
+            "width": 4,
+            "height": 2
+        },
+        {
+            "insight": "c_Sessions_by_Integration_Source",
+            "caption": "The share of Answers session by Integration Source.",
+            "x": 4,
+            "y": 12,
+            "width": 2,
+            "height": 2
         },
         {
             "insight": "c_Overall_Thumbs_Up__Down_Split_by_Experience",
             "caption": "Currently, Answers users can provide a thumbs up / thumbs down on direct answers to provide feedback on the relevance of the result. In the Winter \u002721 release, we\u0027ve added the option to add thumbs up / thumbs down to any result.",
             "x": 0,
-            "y": 9,
+            "y": 14,
             "width": 2,
             "height": 2
         },
         {
-            "insight": "c_Verticals_with_Thumbs_Down",
+            "insight": "c_Answers_Results_with_Thumbs_Down",
+            "caption": "A list of Thumbs Down events in Answers. This shows the table of searches and results that have received the most Thumbs Down events, which is explicit feedback of the relevance of the results from users.",
             "x": 2,
-            "y": 9,
+            "y": 14,
             "width": 4,
-            "height": 1
+            "height": 2
         },
         {
-            "insight": "c_Voice_Searches_over_Time",
-            "x": 2,
-            "y": 10,
-            "width": 4,
-            "height": 1
+            "insight": "c_Thumbs_Up__Down_Split_by_Vertical",
+            "caption": "The split of Thumbs Up and Thumbs Down events by vertical.",
+            "x": 0,
+            "y": 16,
+            "width": 2,
+            "height": 2
         },
         {
             "insight": "c_Searches_with__without_Voice_Search",
-            "caption": "If your Answers experience has a voice search option, you can use the Has Voice Search dimension to separate searches made with and without voice search.",
+            "caption": "The usage of voice search across your Answers experiences.",
             "x": 0,
-            "y": 11,
+            "y": 16,
             "width": 2,
             "height": 1
         },
         {
-            "insight": "c_Direct_Answers_with_Thumbs_Down",
+            "insight": "c_Voice_Searches_over_Time",
+            "caption": "The number of searches placed using voice search over time.",
             "x": 2,
-            "y": 11,
+            "y": 16,
             "width": 4,
             "height": 1
         },
         {
+            "insight": "c_Direct_Answers_with_Thumbs_Down",
+            "caption": "A list of Thumbs Down events in Answers. This shows the table of direct answers that have received the most Thumbs Down events, which is explicit feedback of the relevance of the results from users.",
+            "x": 2,
+            "y": 16,
+            "width": 4,
+            "height": 2
+        },
+        {
             "insight": "c_Total_Voice_Searches",
+            "caption": "The total number of Answers searches placed using voice search.",
             "x": 0,
-            "y": 12,
+            "y": 17,
             "width": 2,
             "height": 1
         },
         {
             "insight": "c_Most_Common_Voice_Search_Terms",
+            "caption": "The most common search terms placed using voice search in Answers.",
             "x": 2,
-            "y": 12,
+            "y": 19,
             "width": 4,
             "height": 1
         },
         {
             "insight": "c_Overall_Deflection_Rate",
-            "caption": "You can now track Case Deflections and Deflection Rate for Support Answers. These metrics are for Answers experiences that are set up to track Case Start and Case Submit events.",
+            "caption": "The percentage of cases deflected in Answers (the percentage of cases started that were not submitted).",
             "x": 0,
-            "y": 13,
+            "y": 20,
             "width": 2,
             "height": 1
         },
         {
             "insight": "c_Case_Deflections_over_Time",
+            "caption": "The number of case deflections and case submissions over time.",
             "x": 2,
-            "y": 13,
+            "y": 20,
+            "width": 4,
+            "height": 1
+        },
+        {
+            "insight": "c_Search_Terms_with_Case_Submission",
+            "caption": "Answers Search Terms placed that were followed by a case submission. This indicates that these Answers searches potentially did not address the users question, which led them to submit a case.",
+            "x": 2,
+            "y": 20,
             "width": 4,
             "height": 1
         },
         {
             "insight": "c_Total_Case_Deflections",
+            "caption": "The total number of cases deflected with Answers (the number of cases started - the number of cases submitted).",
             "x": 0,
-            "y": 14,
+            "y": 21,
             "width": 2,
-            "height": 1
-        },
-        {
-            "insight": "c_Search_Terms_with_Case_Submission",
-            "x": 2,
-            "y": 14,
-            "width": 4,
             "height": 1
         }
     ],
