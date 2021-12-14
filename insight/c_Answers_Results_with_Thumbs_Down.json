@@ -9,7 +9,7 @@
         "dimensions": [
             "yext/ANSWERS_SEARCH_TERM",
             "yext/ANSWERS_VERTICAL_RETURNED",
-            "yext/ALL_ENTITIES"
+            "yext/ENTITIES"
         ]
     },
     "display": {
