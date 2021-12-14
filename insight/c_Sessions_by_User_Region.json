@@ -11,9 +11,8 @@
         ]
     },
     "display": {
-        "bar": {
-            "showLabels": true,
-            "style": "NORMAL"
+        "pie": {
+            "showLabels": true
         }
     }
 }
