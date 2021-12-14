@@ -1,0 +1,18 @@
+{
+    "$id": "c_Clicks_by_Vertical_Returned",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Clicks by Vertical Returned",
+    "query": {
+        "metrics": [
+            "yext/ANSWERS_CLICKS"
+        ],
+        "dimensions": [
+            "yext/ANSWERS_VERTICAL_RETURNED"
+        ]
+    },
+    "display": {
+        "bar": {
+            "style": "NORMAL"
+        }
+    }
+}
