@@ -12,7 +12,8 @@
     },
     "display": {
         "bar": {
-            "style": "NORMAL"
+            "style": "NORMAL",
+            "showLabels": true
         }
     }
 }
