@@ -117,7 +117,7 @@
         },
         {
             "insight": "c_Overall_Thumbs_Up__Down_Split_by_Experience",
-            "caption": "Currently, Answers users can provide a thumbs up / thumbs down on direct answers to provide feedback on the relevance of the result. In the Winter \u002721 release, we\u0027ve added the option to add thumbs up / thumbs down to any result.",
+            "caption": "The split of Thumbs Up and Thumbs Down events by Answers experience.",
             "x": 0,
             "y": 14,
             "width": 2,
