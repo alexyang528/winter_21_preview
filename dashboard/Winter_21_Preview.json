@@ -60,13 +60,6 @@
             "height": 1
         },
         {
-            "insight": "c_Search_Terms_with_Thumbs_Down",
-            "x": 2,
-            "y": 3,
-            "width": 4,
-            "height": 1
-        },
-        {
             "insight": "c_CTR_by_Filter_Key",
             "x": 2,
             "y": 3,
@@ -74,45 +67,90 @@
             "height": 1
         },
         {
-            "insight": "c_Overall_Thumbs_Up__Down_Split_by_Experience",
-            "caption": "Currently, Answers users can provide a thumbs up / thumbs down on direct answers to provide feedback on the relevance of the result. In the Winter \u002721 release, we\u0027ve added the option to add thumbs up / thumbs down to any result.",
+            "insight": "c_Sessions_by_User_Region",
+            "caption": "You can now dimension Answers searches and user events by the Region the user is searching from.",
             "x": 0,
             "y": 4,
-            "width": 2,
-            "height": 2
+            "width": 3,
+            "height": 1
+        },
+        {
+            "insight": "c_Core_Answers_Stats_by_User_Region",
+            "x": 3,
+            "y": 4,
+            "width": 3,
+            "height": 1
+        },
+        {
+            "insight": "c_Sessions_by_User_Browser",
+            "caption": "You can also now dimension Answers searches and user events by the browser the user is using.",
+            "x": 0,
+            "y": 5,
+            "width": 3,
+            "height": 1
+        },
+        {
+            "insight": "c_Core_Answers_Stats_by_User_Browser",
+            "x": 3,
+            "y": 5,
+            "width": 3,
+            "height": 1
+        },
+        {
+            "insight": "c_Sessions_by_Integration_Source",
+            "caption": "In Winter \u002721, you can now specify a unique Integration Source (a.k.a. Query Source) for each Answers integration, in order to delineate searches on different pages of your site.",
+            "x": 0,
+            "y": 6,
+            "width": 3,
+            "height": 1
+        },
+        {
+            "insight": "c_Core_Answers_Stats_by_Integration_Source",
+            "x": 3,
+            "y": 6,
+            "width": 3,
+            "height": 1
         },
         {
             "insight": "c_Thumbs_Up__Down_Split_by_Vertical",
             "x": 0,
-            "y": 5,
+            "y": 7,
             "width": 2,
             "height": 2
         },
         {
-            "insight": "c_Entities_with_Thumbs_Down",
+            "insight": "c_Search_Terms_with_Thumbs_Down",
             "x": 2,
-            "y": 5,
+            "y": 7,
             "width": 4,
             "height": 1
+        },
+        {
+            "insight": "c_Entities_with_Thumbs_Down",
+            "x": 2,
+            "y": 8,
+            "width": 4,
+            "height": 1
+        },
+        {
+            "insight": "c_Overall_Thumbs_Up__Down_Split_by_Experience",
+            "caption": "Currently, Answers users can provide a thumbs up / thumbs down on direct answers to provide feedback on the relevance of the result. In the Winter \u002721 release, we\u0027ve added the option to add thumbs up / thumbs down to any result.",
+            "x": 0,
+            "y": 9,
+            "width": 2,
+            "height": 2
         },
         {
             "insight": "c_Verticals_with_Thumbs_Down",
             "x": 2,
-            "y": 6,
-            "width": 4,
-            "height": 1
-        },
-        {
-            "insight": "c_Direct_Answers_with_Thumbs_Down",
-            "x": 2,
-            "y": 7,
+            "y": 9,
             "width": 4,
             "height": 1
         },
         {
             "insight": "c_Voice_Searches_over_Time",
             "x": 2,
-            "y": 7,
+            "y": 10,
             "width": 4,
             "height": 1
         },
@@ -120,21 +158,28 @@
             "insight": "c_Searches_with__without_Voice_Search",
             "caption": "If your Answers experience has a voice search option, you can use the Has Voice Search dimension to separate searches made with and without voice search.",
             "x": 0,
-            "y": 8,
+            "y": 11,
             "width": 2,
+            "height": 1
+        },
+        {
+            "insight": "c_Direct_Answers_with_Thumbs_Down",
+            "x": 2,
+            "y": 11,
+            "width": 4,
             "height": 1
         },
         {
             "insight": "c_Total_Voice_Searches",
             "x": 0,
-            "y": 9,
+            "y": 12,
             "width": 2,
             "height": 1
         },
         {
             "insight": "c_Most_Common_Voice_Search_Terms",
             "x": 2,
-            "y": 9,
+            "y": 12,
             "width": 4,
             "height": 1
         },
@@ -142,71 +187,29 @@
             "insight": "c_Overall_Deflection_Rate",
             "caption": "You can now track Case Deflections and Deflection Rate for Support Answers. These metrics are for Answers experiences that are set up to track Case Start and Case Submit events.",
             "x": 0,
-            "y": 10,
+            "y": 13,
             "width": 2,
             "height": 1
         },
         {
             "insight": "c_Case_Deflections_over_Time",
             "x": 2,
-            "y": 10,
+            "y": 13,
             "width": 4,
             "height": 1
         },
         {
             "insight": "c_Total_Case_Deflections",
             "x": 0,
-            "y": 11,
+            "y": 14,
             "width": 2,
             "height": 1
         },
         {
             "insight": "c_Search_Terms_with_Case_Submission",
             "x": 2,
-            "y": 11,
+            "y": 14,
             "width": 4,
-            "height": 1
-        },
-        {
-            "insight": "c_Sessions_by_Integration_Source",
-            "x": 0,
-            "y": 12,
-            "width": 3,
-            "height": 1
-        },
-        {
-            "insight": "c_Core_Answers_Stats_by_Integration_Source",
-            "x": 3,
-            "y": 12,
-            "width": 3,
-            "height": 1
-        },
-        {
-            "insight": "c_Sessions_by_User_Browser",
-            "x": 0,
-            "y": 14,
-            "width": 3,
-            "height": 1
-        },
-        {
-            "insight": "c_Core_Answers_Stats_by_User_Browser",
-            "x": 3,
-            "y": 13,
-            "width": 3,
-            "height": 1
-        },
-        {
-            "insight": "c_Sessions_by_User_Region",
-            "x": 0,
-            "y": 14,
-            "width": 3,
-            "height": 1
-        },
-        {
-            "insight": "c_Core_Answers_Stats_by_User_Region",
-            "x": 3,
-            "y": 14,
-            "width": 3,
             "height": 1
         }
     ],
