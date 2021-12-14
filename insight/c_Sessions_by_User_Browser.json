@@ -1,0 +1,18 @@
+{
+    "$id": "c_Sessions_by_User_Browser",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Answers Sessions by User Browser",
+    "query": {
+        "metrics": [
+            "yext/ANSWERS_SESSIONS"
+        ],
+        "dimensions": [
+            "yext/ANSWERS_USER_BROWSER"
+        ]
+    },
+    "display": {
+        "pie": {
+            "showLabels": true
+        }
+    }
+}

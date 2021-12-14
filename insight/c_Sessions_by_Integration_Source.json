@@ -1,0 +1,19 @@
+{
+    "$id": "c_Sessions_by_Integration_Source",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Sessions by Integration Source",
+    "query": {
+        "metrics": [
+            "yext/ANSWERS_SESSIONS"
+        ],
+        "dimensions": [
+            "yext/ANSWERS_QUERY_SOURCE"
+        ]
+    },
+    "display": {
+        "bar": {
+            "showLabels": true,
+            "style": "NORMAL"
+        }
+    }
+}

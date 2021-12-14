@@ -1,0 +1,19 @@
+{
+    "$id": "c_Sessions_by_User_Region",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Sessions by User Region",
+    "query": {
+        "metrics": [
+            "yext/ANSWERS_SESSIONS"
+        ],
+        "dimensions": [
+            "yext/ANSWERS_USER_REGION"
+        ]
+    },
+    "display": {
+        "bar": {
+            "showLabels": true,
+            "style": "NORMAL"
+        }
+    }
+}
