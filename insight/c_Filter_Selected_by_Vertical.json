@@ -1,7 +1,7 @@
 {
     "$id": "c_Filter_Selected_by_Vertical",
     "$schema": "https://schema.yext.com/config/analytics/insight/v1",
-    "name": "Filters Selected by Vertical",
+    "name": "Facet Filter Values Selected by Vertical",
     "query": {
         "metrics": [
             "yext/ANSWERS_SEARCHES"
@@ -18,9 +18,9 @@
                 ]
             },
             {
-                "filter": "yext/ANSWERS_FILTER_OPERATOR",
+                "filter": "yext/ANSWERS_FILTER_TYPE",
                 "in": [
-                    "EQUAL TO"
+                    "Facet"
                 ]
             }
         ]
