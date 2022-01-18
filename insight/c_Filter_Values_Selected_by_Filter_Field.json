@@ -20,7 +20,7 @@
             {
                 "filter": "yext/ANSWERS_FILTER_TYPE",
                 "in": [
-                    "Facet"
+                    "FACET"
                 ]
             }
         ]
